@@ -75,5 +75,6 @@ class TestPaciente(unittest.TestCase):
                 genero="Masculino",
                 email="teste@teste.com"
             )
+         
 if __name__ == '__main__':
     unittest.main()

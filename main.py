@@ -54,6 +54,7 @@ def main():
             print("\nSaindo do sistema...")
             break
         
+        
         else:
             print("\nOpção inválida! Tente novamente.")
 

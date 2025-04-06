@@ -10,4 +10,4 @@ def validar_cpf(cpf: str) -> str:
 def validar_email(email: str) -> str:
     if not re.match(r'^[\w\.-]+@[\w\.-]+\.\w+$', email):
         raise ValueError("Email inválido")
-    return email
+    return email 

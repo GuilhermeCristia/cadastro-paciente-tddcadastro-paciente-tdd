@@ -72,7 +72,7 @@ class Paciente:
         if cpf_limpo == cpf_limpo[0] * 11:
             raise ValueError("CPF inválido (dígitos repetidos)")
     
-        return cpf_limpo
+        return cpf_limpo 
     
     def __str__(self):
         """Representação em string do paciente"""
