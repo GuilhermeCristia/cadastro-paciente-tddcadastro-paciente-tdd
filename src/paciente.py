@@ -77,3 +77,4 @@ class Paciente:
     def __str__(self):
         """Representação em string do paciente"""
         return f"Paciente: {self.nome_completo} ({self.cpf})"
+    
